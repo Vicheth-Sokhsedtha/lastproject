@@ -33,19 +33,19 @@ export default function Slidbar() {
         className="mySwiper h-[450px] w-full rounded-lg mt-[125px] "
       >
         <SwiperSlide className='bg-red-200 w-full h-full'>
-          <img src="public/image/banner1.jpg" alt="" className='w-full h-full'/>
+          <img src="/image/banner1.jpg" alt="" className='w-full h-full'/>
         </SwiperSlide>
         <SwiperSlide className='bg-blue-200'>
-          <img src="public/image/banner2.jpg" alt="" className='w-full h-full'/>
+          <img src="/image/banner2.jpg" alt="" className='w-full h-full'/>
         </SwiperSlide>
         <SwiperSlide className='bg-green-200'>
-          <img src="public/image/banner3.jpg" alt="" className='w-full h-full'/>
+          <img src="/image/banner3.jpg" alt="" className='w-full h-full'/>
         </SwiperSlide>
         <SwiperSlide className='bg-yellow-200'>
-          <img src="public/image/banner4.jpg" alt="" className='w-full h-full'/>
+          <img src="/image/banner4.jpg" alt="" className='w-full h-full'/>
         </SwiperSlide>
         <SwiperSlide className='bg-purple-200'>
-          <img src="public/image/banner5.jpg" alt="" className='w-full h-full'/>
+          <img src="/image/banner5.jpg" alt="" className='w-full h-full'/>
         </SwiperSlide>
         
         <div className="autoplay-progress h-[400px]" slot="container-end">
