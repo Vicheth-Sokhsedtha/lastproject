@@ -9,7 +9,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
 
-  // Check if user is logged in when component loads
+ 
   useEffect(() => {
     const checkLoginStatus = () => {
       const user = JSON.parse(localStorage.getItem('currentUser'));
@@ -22,13 +22,13 @@ export default function Nav() {
       }
     };
 
-    // Check initially
+    
     checkLoginStatus();
 
-    // Listen for storage changes (if user logs in/out in another tab)
+    
     window.addEventListener('storage', checkLoginStatus);
     
-    // Cleanup
+    
     return () => {
       window.removeEventListener('storage', checkLoginStatus);
     };
@@ -38,12 +38,12 @@ export default function Nav() {
     localStorage.removeItem('currentUser');
     setIsLoggedIn(false);
     setCurrentUser(null);
-    setOpen(false); // Close mobile menu if open
+    setOpen(false); 
   };
 
   return (
     <div>
-      {/* Desktop Navbar - Hidden on mobile */}
+     
       <nav className="w-full h-20 shadow-md fixed top-0 z-10 hidden lg:flex bg-white">
         <div className="logo w-[20%] h-20 flex justify-center items-center pl-5">
           <img src="/image/logo.jpg" alt="logo" className="w-[150px] h-20 rounded-md" />
@@ -90,7 +90,6 @@ export default function Nav() {
         </div>
       </nav>
 
-      {/* Mobile Navbar - Hidden on desktop */}
       <nav className="w-full h-20 shadow-md fixed top-0 z-10 flex lg:hidden bg-white">
         <div className="logo w-[20%] h-20 flex justify-center items-center pl-5">
           <img src="/image/logo.jpg" alt="logo" className="w-[100px] h-20 rounded-md" />
@@ -104,7 +103,7 @@ export default function Nav() {
           </div>
         </div>
 
-        {/* Mobile Menu Overlay */}
+        
         <div 
           className={`fixed top-0 left-0 w-full h-full bg-black/40 z-30 transition-opacity ${
             open ? 'opacity-100' : 'opacity-0 pointer-events-none'
@@ -112,7 +111,7 @@ export default function Nav() {
           onClick={() => setOpen(false)}
         ></div>
 
-        {/* Mobile Menu Sidebar */}
+       
         <div className={`fixed top-0 left-0 w-3/4 h-full bg-white z-40 transform transition-transform ${
           open ? 'translate-x-0' : '-translate-x-full'
         }`}>
@@ -130,7 +129,7 @@ export default function Nav() {
               <li className='py-2 cursor-pointer hover:text-blue-400'>About</li>
               <li className='py-2 cursor-pointer hover:text-blue-400'>Contact</li>
               
-              {/* Mobile Login/Profile Section */}
+              
               <li className='py-2 border-t mt-4 pt-4'>
                 {isLoggedIn ? (
                   <div className="space-y-3">

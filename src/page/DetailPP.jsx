@@ -363,7 +363,7 @@ export default function DetailPP() {
                 </select>
               </div>
 
-              {/* Price Summary */}
+              {/* Price Summary */}  
               {totalPrice > 0 && (
                 <div className="bg-gray-50 rounded-lg p-4 space-y-2">
                   <div className="flex justify-between text-sm">

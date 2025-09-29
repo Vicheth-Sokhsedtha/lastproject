@@ -11,7 +11,7 @@ import Profile from '../page/Profile'
 import PhnomPenh from '../page/PhnomPenh'
 import SiemReap from '../page/SiemReap.jsx'
 import Kampot from '../page/Kampot'
-import DetailPP from '../page/DetailPP' // Fixed: DetailIPP → DetailPP
+import DetailPP from '../page/DetailPP'
 import DetailKP from '../page/DetailKP.jsx'
 import DetailSR from '../page/DetailSR.jsx'
 
@@ -26,12 +26,12 @@ export default function MainRoute() {
       <Route path="/signin" element={<SigninSignup />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/phnompenh" element={<PhnomPenh />} />
-      <Route path="/siemreap" element={<SiemReap />} /> {/* This route exists */}
+      <Route path="/siemreap" element={<SiemReap />} /> 
       <Route path="/kampot" element={<Kampot />} />
-      <Route path="/DetailPP/:id" element={<DetailPP />} /> {/* Fixed */}
+      <Route path="/DetailPP/:id" element={<DetailPP />} />
       <Route path="/DetailKP/:id" element={<DetailKP />} />
       <Route path="/DetailSR/:id" element={<DetailSR />} />
-      <Route path="*" element={<Error404 />} /> {/* 404 route */}
+      <Route path="*" element={<Error404 />} /> 
     </Routes>
   )
 }

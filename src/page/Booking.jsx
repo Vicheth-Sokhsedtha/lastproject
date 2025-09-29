@@ -55,7 +55,7 @@ export default function Booking() {
       
       localStorage.setItem('userBookings', JSON.stringify(updatedBookings));
       
-      // Update local state
+      
       setUserBookings(userBookings.map(booking =>
         booking.id === bookingId 
           ? { ...booking, status: 'Cancelled', cancelDate: new Date().toISOString().split('T')[0] }
@@ -84,7 +84,7 @@ export default function Booking() {
   const BookingCard = ({ booking }) => (
     <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-xl transition">
       <div className="flex flex-col md:flex-row gap-6">
-        {/* Hotel Image */}
+       
         <div className="md:w-48">
           <img
             src={booking.hotelImage || '/images/default-hotel.jpg'}
@@ -93,7 +93,7 @@ export default function Booking() {
           />
         </div>
 
-        {/* Booking Details */}
+       
         <div className="flex-1">
           <div className="flex justify-between items-start mb-3">
             <h3 className="text-xl font-semibold">{booking.hotelName}</h3>
