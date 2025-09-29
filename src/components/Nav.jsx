@@ -4,7 +4,7 @@ import { TiThMenuOutline } from "react-icons/ti";
 import { IoMdClose } from "react-icons/io";
 import { Link } from 'react-router-dom';
 
-export default function nav() {
+export default function Nav() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [open, setOpen] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
