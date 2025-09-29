@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pp-001",
+    "title": "Colonial Landmark",
+    "name": "Raffles Hotel Le Royal",
+    "price": 280,
+    "image": "/image/Raffles Hotel Le Royal.jpg",
+    "description": "A historic icon since 1929 blending French colonial, Khmer, and Art Deco styles. Famous for its Elephant Bar and Khmer-inspired spa treatments.",
+    "rating": 4.8,
+    "preview1": "/image/pp_pre_1_1.jpg",
+    "preview2": "/image/pp_pre_1_2.jpg",
+    "preview3": "/image/pp_pre_1_3.jpg"
+  },
+  {
+    "id": "pp-002",
+    "title": "Skyline Luxury",
+    "name": "Rosewood Phnom Penh",
+    "price": 350,
+    "image": "/image/Rosewood Phnom Penh.jpg",
+    "description": "Located at the top of Vattanac Capital Tower, this hotel offers sweeping views, sleek design, and world-class dining.",
+    "rating": 4.9,
+    "preview1": "/image/pp_pre_2_1.jpg",
+    "preview2": "/image/pp_pre_2_2.jpg",
+    "preview3": "/image/pp_pre_2_3.jpg"
+  },
+  {
+    "id": "pp-003",
+    "title": "French Elegance",
+    "name": "Sofitel Phnom Penh Phokeethra",
+    "price": 230,
+    "image": "/image/Sofitel Phnom Penh Phokeethra.jpg",
+    "description": "Colonial-style luxury hotel with outdoor pool, award-winning restaurants, and a touch of French sophistication in the heart of the city.",
+    "rating": 4.7,
+    "preview1": "/image/pp_pre_3_1.jpg",
+    "preview2": "/image/pp_pre_3_2.jpg",
+    "preview3": "/image/pp_pre_3_3.jpg"
+  },
+  {
+    "id": "pp-004",
+    "title": "Tranquil Retreat",
+    "name": "Palace Gate Hotel & Resort",
+    "price": 150,
+    "image": "/image/Palace Gate Hotel & Resort.jpg",
+    "description": "A serene escape near the Royal Palace with spacious rooms, rooftop pool, and attentive service in a lush garden setting.",
+    "rating": 4.6,
+    "preview1": "/image/pp_pre_4_1.jpg",
+    "preview2": "/image/pp_pre_4_2.jpg",
+    "preview3": "/image/pp_pre_4_3.jpg"
+  },
+  {
+    "id": "pp-005",
+    "title": "Boutique Escape",
+    "name": "The Balé Phnom Penh",
+    "price": 280,
+    "image": "/image/The Balé Phnom Penh.jpg",
+    "description": "A boutique riverside resort featuring intimate villas, lush gardens, and personalized hospitality away from the city bustle.",
+    "rating": 4.5,
+    "preview1": "/image/pp_pre_5_1.jpg",
+    "preview2": "/image/pp_pre_5_2.jpg",
+    "preview3": "/image/pp_pre_5_3.jpg"
+  },
+  {
+    "id": "pp-006",
+    "title": "Modern Comfort",
+    "name": "Oakwood Premier Phnom Penh",
+    "price": 190,
+    "image": "/image/Oakwood Premier Phnom Penh.jpg",
+    "description": "Stylish serviced apartments in the city center with rooftop pool, fitness facilities, and modern amenities for both short and extended stays.",
+    "rating": 4.6,
+    "preview1": "/image/pp_pre_6_1.jpg",
+    "preview2": "/image/pp_pre_6_2.jpg",
+    "preview3": "/image/pp_pre_6_3.jpg"
+  },
+  {
+    "id": "pp-007",
+    "title": "Contemporary Luxury",
+    "name": "Hyatt Regency Phnom Penh",
+    "price": 200,
+    "image": "/image/Hyatt Regency Phnom Penh.jpg",
+    "description": "A modern hotel with multiple dining options, full-service spa, and rooftop pool blending Cambodian hospitality with global standards.",
+    "rating": 4.7,
+    "preview1": "/image/pp_pre_7_1.jpg",
+    "preview2": "/image/pp_pre_7_2.jpg",
+    "preview3": "/image/pp_pre_7_3.jpg"
+  }
+]

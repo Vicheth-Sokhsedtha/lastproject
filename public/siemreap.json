@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sr-001",
+    "title": "Heritage Luxury",
+    "name": "Park Hyatt Siem Reap",
+    "price": 300,
+    "image": "/image/Park Hyatt Siem Reap.jpg",
+    "description": "A refined heritage hotel blending Khmer architecture and Art Deco — central location, upscale dining, and attentive service.",
+    "rating": 4.8,
+    "preview1": "/image/sr_pre_1_1.jpg",
+    "preview2": "/image/sr_pre_1_2.jpg",
+    "preview3": "/image/sr_pre_1_3.jpg"
+  },
+  {
+    "id": "sr-002",
+    "title": "Intimate Riverfront",
+    "name": "Jaya House River Park",
+    "price": 220,
+    "image": "/image/Jaya House River Park.jpg",
+    "description": "Boutique riverfront retreat with spacious suites, personalized service and a serene, eco-conscious atmosphere.",
+    "rating": 4.9,
+    "preview1": "/image/sr_pre_2_1.jpg",
+    "preview2": "/image/sr_pre_2_2.jpg",
+    "preview3": "/image/sr_pre_2_3.jpg"
+  },
+  {
+    "id": "sr-003",
+    "title": "Boutique Butler Service",
+    "name": "Shinta Mani Angkor",
+    "price": 240,
+    "image": "/image/Shinta Mani Angkor.jpg",
+    "description": "Design-forward boutique hotel with private pool villas, dedicated butlers, and unique community-focused hospitality.",
+    "rating": 4.7,
+    "preview1": "/image/sr_pre_3_1.jpg",
+    "preview2": "/image/sr_pre_3_2.jpg",
+    "preview3": "/image/sr_pre_3_3.jpg"
+  },
+  {
+    "id": "sr-004",
+    "title": "Classic Grandeur",
+    "name": "Raffles Grand Hotel d'Angkor",
+    "price": 280,
+    "image": "/image/Raffles Grand Hotel d'Angkor.jpg",
+    "description": "Historic landmark hotel near the temples featuring old-world charm, a long pool, and premium spa experiences.",
+    "rating": 4.7,
+    "preview1": "/image/sr_pre_4_1.jpg",
+    "preview2": "/image/sr_pre_4_2.jpg",
+    "preview3": "/image/sr_pre_4_3.jpg"
+  },
+  {
+    "id": "sr-005",
+    "title": "Resort Calm",
+    "name": "Anantara Angkor Resort",
+    "price": 210,
+    "image": "/image/Anantara Angkor Resort.jpg",
+    "description": "Luxurious resort with tranquil gardens, sprawling pools, and easy access to Angkor Wat — ideal for relaxation after temple touring.",
+    "rating": 4.6,
+    "preview1": "/image/sr_pre_5_1.jpg",
+    "preview2": "/image/sr_pre_5_2.jpg",
+    "preview3": "/image/sr_pre_5_3.jpg"
+  },
+  {
+    "id": "sr-006",
+    "title": "Private Villa Escape",
+    "name": "Zannier Phum Baitang",
+    "price": 650,
+    "image": "/image/Zannier Phum Baitang.jpg",
+    "description": "Ultra-luxury villa resort set in lush landscape offering private villas, exceptional privacy and bespoke experiences.",
+    "rating": 4.8,
+    "preview1": "/image/sr_pre_6_1.jpg",
+    "preview2": "/image/sr_pre_6_2.jpg",
+    "preview3": "/image/sr_pre_6_3.jpg"
+  }
+]

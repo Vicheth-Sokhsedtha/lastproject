@@ -1,0 +1,50 @@
+[
+  {
+    "id": "kp-001",
+    "title": "Riverside Elegance",
+    "name": "Amber Kampot",
+    "price": 250,
+    "image": "/image/Amber Kampot.jpg",
+    "description": "Luxury riverside resort featuring modern villas, private beach access, and serene surroundings. Known for exceptional service and relaxation.",
+    "rating": 4.7,
+    "preview1": "/image/kp_pre_1_1.jpg",
+    "preview2": "/image/kp_pre_1_2.jpg",
+    "preview3": "/image/kp_pre_1_3.jpg"
+  },
+  {
+    "id": "kp-002",
+    "title": "Mountain Retreat",
+    "name": "Thansur Sokha Hotel (Bokor Mountain)",
+    "price": 120,
+    "image": "/image/Thansur Sokha Hotel (Bokor Mountain).jpg",
+    "description": "A grand resort on Bokor Mountain with panoramic views, multiple dining options, and cool highland climate — perfect for a mountain escape.",
+    "rating": 4.1,
+    "preview1": "/image/kp_pre_2_1.jpg",
+    "preview2": "/image/kp_pre_2_2.jpg",
+    "preview3": "/image/kp_pre_2_3.jpg"
+  },
+  {
+    "id": "kp-003",
+    "title": "Eco Luxury",
+    "name": "RiverTree Villa & Resort",
+    "price": 180,
+    "image": "/image/RiverTree Villa & Resort.jpg",
+    "description": "Eco-conscious resort with private hot tubs, Turkish baths, and personalized chef services. Offers a tranquil setting for wellness and comfort.",
+    "rating": 4.6,
+    "preview1": "/image/kp_pre_3_1.jpg",
+    "preview2": "/image/kp_pre_3-2.jpg",
+    "preview3": "/image/kp_pre_3_3.jpg"
+  },
+  {
+    "id": "kp-004",
+    "title": "Boutique Charm",
+    "name": "Pippali Boutique Hotel",
+    "price": 95,
+    "image": "/image/Pippali Boutique Hotel.jpg",
+    "description": "A charming riverside boutique with tropical gardens, spacious rooms, and a large pool. Conveniently located near Kampot town center.",
+    "rating": 4.3,
+    "preview1": "/image/kp_pre_4_1.jpg",
+    "preview2": "/image/kp_pre_4_2.jpg",
+    "preview3": "/image/kp_pre_4_3.jpg"
+  }
+]
