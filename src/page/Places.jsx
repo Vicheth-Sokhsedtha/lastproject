@@ -14,7 +14,7 @@ export default function Places() {
                   Phnom Penh
                 </div>
                 
-                <img src="public/image/PP.jpg" alt="" class="w-full h-full rounded-[17px]" />
+                <img src="/image/PP.jpg" alt="" class="w-full h-full rounded-[17px]" />
               </div>
               </Link>
             </div>
@@ -26,7 +26,7 @@ export default function Places() {
                   Siem Reap
                 </div>
                 
-                <img src="public/image/SR.jpg" alt="" class="w-full h-full rounded-[17px]" />
+                <img src="/image/SR.jpg" alt="" class="w-full h-full rounded-[17px]" />
               </div>
               </Link>
             </div>
@@ -38,7 +38,7 @@ export default function Places() {
                 <div class="absolute top-2 left-1/2 -translate-x-1/2 bg-white/70 px-3 py-1 rounded-md text-center font-semibold">
                   Kampot
                 </div>
-                <img src="public/image/Kampot.jpg" alt="" class="w-full h-full rounded-[17px]" />
+                <img src="/image/Kampot.jpg" alt="" class="w-full h-full rounded-[17px]" />
               </div>
               </Link>
             </div>
@@ -48,7 +48,7 @@ export default function Places() {
                   Sihanoukville <br /> <p className='text-red-400'>Comming soon...</p>
                 </div>
                 
-                <img src="public/image/Sihanoukville.jpg" alt="" class="w-full h-full rounded-[17px]" />
+                <img src="/image/Sihanoukville.jpg" alt="" class="w-full h-full rounded-[17px]" />
               </div>
             </div>
             <div class="card w-full h-full flex flex-col relative">
@@ -57,7 +57,7 @@ export default function Places() {
                   Battambang <br /> <p className='text-red-400'>Comming soon...</p>
                 </div>
                 
-                <img src="public/image/battambang.jpg" alt="" class="w-full h-full rounded-[17px]" />
+                <img src="/image/battambang.jpg" alt="" class="w-full h-full rounded-[17px]" />
               </div>
             </div>
             <div class="card w-full h-full flex flex-col relative">
@@ -66,7 +66,7 @@ export default function Places() {
                   Kampong Thom <br /> <p className='text-red-400'>Comming soon...</p>
                 </div>
                 
-                <img src="public/image/Kampong Thom.jpg" alt="" class="w-full h-full rounded-[17px]" />
+                <img src="/image/Kampong Thom.jpg" alt="" class="w-full h-full rounded-[17px]" />
               </div>
             </div>
             <div class="card w-full h-full flex flex-col relative">
@@ -75,7 +75,7 @@ export default function Places() {
                   Kep<br /> <p className='text-red-400'>Comming soon...</p>
                 </div>
                 
-                <img src="public/image/Kep.jpg" alt="" class="w-full h-full rounded-[17px]" />
+                <img src="/image/Kep.jpg" alt="" class="w-full h-full rounded-[17px]" />
               </div>
             </div>
             <div class="card w-full h-full flex flex-col relative">
@@ -84,7 +84,7 @@ export default function Places() {
                   Koh Kong <br /> <p className='text-red-400'>Comming soon...</p>
                 </div>
                 
-                <img src="public/image/Koh Kong.jpg" alt="" class="w-full h-full rounded-[17px]" />
+                <img src="/image/Koh Kong.jpg" alt="" class="w-full h-full rounded-[17px]" />
               </div>
             </div>
 
